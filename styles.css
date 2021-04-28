@@ -1,0 +1,48 @@
+@font-face {
+    font-family: lemonmilk;
+    src: url(fonts/lemon_milk/LEMONMILK-Regular.otf);
+}
+
+ul li {
+    list-style-type:none;
+    font-family: lemonmilk;
+    margin:15px 0;
+    font-size: 33px;
+}
+ul li a{
+    text-decoration:none;
+    font-family: lemonmilk;
+    text-align: right;
+}
+
+.menu {
+    position: absolute;
+    width: 200px;
+    height: 100% !important;
+    min-height: 100% !important;
+    background-color: green;
+    color: white;
+    float: left;
+    padding: 10px;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
